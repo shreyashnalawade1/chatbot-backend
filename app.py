@@ -90,4 +90,4 @@ app = socketio.WSGIApp(sio,app)
 
 # Run the server
 if __name__ == '__main__':
-    eventlet.wsgi.server(eventlet.listen(('localhost', 4000)), app)
+    eventlet.wsgi.server(eventlet.listen(('', 4000)), app)
